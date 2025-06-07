@@ -148,9 +148,8 @@ End Sub
 Cette méthode reste **efficace** si l’utilisateur est piégé et **active manuellement** le contenu malveillant.
 
 <p align="center">
-<img src="./simulation_macro3.PNG" alt="Simulation de macro Excel" width="80%">
+<img src="./Simulation_macro3.PNG" alt="Simulation d'une attaque par macro Excel" width="80%">
 </p>
-
 
 
 
