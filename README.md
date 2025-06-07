@@ -58,11 +58,24 @@ Ce projet a pour objectif de **sensibiliser** et de fournir des **bonnes pratiqu
 🔗 [Who.is](https://who.is/)
 🔗 [SecurityTrails](https://securitytrails.com/)
 
-7. **Mettre à jour son antivirus et activer les protections antiphishing**
+Les outils et ressources externes mentionnés dans ce projet (ex. : VirusTotal, Google Header Analyzer, PhishTank…) sont tous **publics, légaux** et utilisés dans un **but exclusivement pédagogique**.
+
+Aucune de ces plateformes n’est modifiée ou détournée.
+Les liens sont fournis uniquement pour **sensibiliser aux bonnes pratiques** en matière de cybersécurité (analyse d’e-mails, de liens, de fichiers…).
+
+> Ce projet n’encourage en aucun cas l’usage de techniques offensives sans autorisation légale préalable.
+
+ Pour plus d'informations sur l'utilisation de liens à des fins pédagogiques :
+- [Legifrance – Code de la propriété intellectuelle, Article L122-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278917/)
+- [CNIL – Sensibilisation à la cybersécurité](https://www.cnil.fr)
+
+----
+
+8. **Mettre à jour son antivirus et activer les protections antiphishing**
 ✅ Activer SmartScreen (Windows)
 ✅ Activer les protections Gmail / Outlook
 
-8. **Ne jamais cliquer sur un lien inconnu dans un e-mail**
+9. **Ne jamais cliquer sur un lien inconnu dans un e-mail**
 ✍️ Tapez l’URL directement dans votre navigateur.
 
 ---
@@ -103,11 +116,9 @@ Depuis 2022, **Microsoft Office (Excel, Word)** désactive les **macros par déf
 
 💡 Cette méthode est couramment utilisée dans les attaques de **phishing + macro VBA**.
 
----
 
 Exemple de simulation d'attaque macro :
 
-```vba
 Private Sub Workbook_Open()
 MsgBox "Étape 1 – Réception d’un e-mail piégé"
 MsgBox "Étape 2 – Ouverture du fichier Excel, clic sur 'Activer le contenu'"
@@ -117,12 +128,11 @@ MsgBox "Étape 4 – Propagation et chiffrement"
 MsgBox "Leçon : cette attaque aurait pu être évitée si les macros étaient désactivées"
 End Sub
 
-
 <p align="center">
 <img src="./simulation_macro2.PNG" alt="Simulation de macro Excel malveillante" width="80%">
 </p>
 
-----
+
 
 
 
