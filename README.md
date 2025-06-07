@@ -92,7 +92,7 @@ Depuis 2022, **Microsoft Office (Excel, Word)** désactive les **macros par déf
 
 ---
 
-## Ce que cela signifie concrètement
+ Ce que cela signifie concrètement
 
 - Tant que l’utilisateur **n’active pas les macros**, aucun code malveillant ne s’exécute.
 - C’est **uniquement après avoir cliqué sur "Activer le contenu"** que la macro se lance.
@@ -105,7 +105,7 @@ Depuis 2022, **Microsoft Office (Excel, Word)** désactive les **macros par déf
 
 ---
 
-## Exemple de simulation d'attaque macro :
+Exemple de simulation d'attaque macro :
 
 ```vba
 Private Sub Workbook_Open()
@@ -117,19 +117,13 @@ MsgBox "Étape 4 – Propagation et chiffrement"
 MsgBox "Leçon : cette attaque aurait pu être évitée si les macros étaient désactivées"
 End Sub
 
+
+<p align="center">
+<img src="./simulation_macro2.PNG" alt="Simulation de macro Excel malveillante" width="80%">
+</p>
+
 ----
 
-Les outils et ressources externes mentionnés dans ce projet (ex. : VirusTotal, Google Header Analyzer, PhishTank…) sont tous **publics, légaux** et utilisés dans un **but exclusivement pédagogique**.
 
-Aucune de ces plateformes n’est modifiée ou détournée.
-Les liens sont fournis uniquement pour **sensibiliser aux bonnes pratiques** en matière de cybersécurité (analyse d’e-mails, de liens, de fichiers…).
-
-> Ce projet n’encourage en aucun cas l’usage de techniques offensives sans autorisation légale préalable.
-
- Pour plus d'informations sur l'utilisation de liens à des fins pédagogiques :
-- [Legifrance – Code de la propriété intellectuelle, Article L122-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278917/)
-- [CNIL – Sensibilisation à la cybersécurité](https://www.cnil.fr)
-
----
 
 
