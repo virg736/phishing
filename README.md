@@ -28,9 +28,9 @@
 ## Introduction
 
 Le **phishing** (ou hameçonnage) est une technique très répandue chez les cybercriminels.
-Elle vise à tromper la victime pour lui faire **divulguer des informations sensibles** : mots de passe, coordonnées bancaires, identifiants, etc.
+Elle vise à tromper la victime afin de lui faire **divulguer des informations sensibles** : mots de passe, coordonnées bancaires, identifiants, etc.
 
-Ce projet a pour objectif de **sensibiliser** et de fournir des **bonnes pratiques concrètes**, accompagnées de **liens d’analyse** (email, pièces jointes, etc.).
+Ce projet a pour objectif de **sensibiliser** et de fournir de **bonnes pratiques concrètes**, accompagnées de **liens d’analyse** (email, pièces jointes, etc.).
 
 ---
 
@@ -60,7 +60,7 @@ Ce projet a pour objectif de **sensibiliser** et de fournir des **bonnes pratiqu
 
 Les outils et ressources externes mentionnés dans ce projet (ex. : VirusTotal, Google Header Analyzer, PhishTank…) sont tous **publics, légaux** et utilisés dans un **but exclusivement pédagogique**.
 
-Aucune de ces plateformes n’est modifiée ou détournée.
+Aucune de ces plateformes n’est modifiée ou utilisée de manière détournée.
 Les liens sont fournis uniquement pour **sensibiliser aux bonnes pratiques** en matière de cybersécurité (analyse d’e-mails, de liens, de fichiers…).
 
 > Ce projet n’encourage en aucun cas l’usage de techniques offensives sans autorisation légale préalable.
@@ -85,9 +85,9 @@ Les liens sont fournis uniquement pour **sensibiliser aux bonnes pratiques** en 
 | **Élément** | **Ce qu’il faut analyser** |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **From** | Est-ce l’adresse attendue ? (ex. : `support@banque.fr`) |
-| **Reply-To** | Est-ce identique à l’adresse "From" ? Si c’est une autre adresse (ex. : `offre-banque@protonmail.com`), cela peut être suspect. |
-| **Return-Path** | Adresse réelle de retour. Peut différer du "From" en cas de spoofing. |
-| **Received** | Liste des serveurs par lesquels est passé l’e-mail. Une origine inattendue (ex. : serveur basé à l’étranger, VPN, etc.) est un signal d’alerte. |
+| **Reply-To** | Est-elle identique à l’adresse "From" ? Si c’est une autre adresse (ex. : `offre-banque@protonmail.com`), cela peut être suspect. |
+| **Return-Path** | Adresse réelle de retour. Peut différer du "From" en cas de spoofing, et doit être vérifiée. |
+| **Received** | Liste des serveurs par lesquels est passé l’e-mail. Une origine inhabituelle (ex. : serveur basé à l’étranger, VPN, etc.) est un signal d’alerte. |
 | **DKIM / SPF / DMARC** | Signatures utilisées pour vérifier que le domaine de l’expéditeur est autorisé à envoyer l’e-mail. Si elles sont absentes ou échouées, cela indique un danger. |
 
 
@@ -114,7 +114,7 @@ Depuis 2022, **Microsoft Office (Excel, Word)** désactive les **macros par déf
 - Télécharger un **payload** (virus)
 - L’exécuter discrètement
 
-💡 Cette méthode est couramment utilisée dans les attaques de **phishing + macro VBA**.
+💡 Cette méthode est couramment utilisée dans les attaques de type **phishing par macro VBA**.
 
 
 Exemple de simulation d'attaque macro :
@@ -125,7 +125,6 @@ MsgBox "Étape 2 – Ouverture du fichier Excel, clic sur 'Activer le contenu'"
 MsgBox "Étape 3 – Exécution de la macro"
 Shell "notepad.exe", vbNormalFocus
 MsgBox "Étape 4 – Propagation et chiffrement"
-MsgBox "Leçon : cette attaque aurait pu être évitée si les macros étaient désactivées"
 End Sub
 
 <p align="center">
@@ -134,8 +133,8 @@ End Sub
 
 ### 🔎 À retenir :
 
-- Les macros sont encore utilisées dans certains environnements **mal protégés**.
-- Depuis 2022, **Microsoft bloque par défaut les macros** pour les fichiers téléchargés depuis Internet (`Office 2022+`, `M365`).
+- Les macros sont encore utilisées dans certains environnements **insuffisamment sécurisés**.
+- Depuis 2022, **Microsoft bloque par défaut les macros** dans les fichiers téléchargés depuis Internet (`Office 2022+`, Microsoft`365`).
 - Les attaquants contournent ces protections en :
 - hébergeant les fichiers sur des serveurs internes compromis,
 - utilisant des documents Word (`.docm`) ou PowerPoint avec macros,
@@ -145,13 +144,27 @@ End Sub
 
 ### ✅ Conclusion
 
-Cette méthode reste **efficace** si l’utilisateur est piégé et **active manuellement** le contenu malveillant.
+Cette méthode reste redoutablement **efficace** si l’utilisateur est piégé et **active manuellement** le contenu malveillant.
 
 <p align="center">
 <img src="./Simulation_macro3.PNG" alt="Simulation d'une attaque par macro Excel" width="80%">
 </p>
 
+----
 
+## 🛑 Attention aux fichiers PDF
+
+Les fichiers PDF peuvent également contenir des menaces :
+
+- Ils peuvent intégrer des **scripts malveillants** ou des **liens piégés**.
+- Certains PDF déclenchent une **demande d’activation de contenu dynamique** (JavaScript).
+- Ils peuvent inciter à cliquer sur un **lien de phishing déguisé** (ex. : bouton "Voir la facture").
+
+### 🛡️ Recommandations
+
+- **Ne pas ouvrir directement les fichiers PDF suspects**, même dans un navigateur.
+- **Analyser les fichiers PDF avec un antivirus** ou un service comme [VirusTotal – Analyse de fichier](https://www.virustotal.com/gui/home/upload).
+- **Ne jamais cliquer sur un lien ou un bouton intégré à un PDF d’origine inconnue.**
 
 
 
