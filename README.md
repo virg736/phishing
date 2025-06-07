@@ -5,7 +5,6 @@
 
 <!-- Badges centrés -->
 <p align="center">
-<img src="https://img.shields.io/badge/statut-engagé-blue" alt="Statut engagé" />
 <img src="https://img.shields.io/badge/stabilité-stable-brightgreen" alt="Stabilité stable" />
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
 <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="Licence Creative Commons BY-NC-SA 4.0" />
