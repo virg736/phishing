@@ -132,6 +132,27 @@ End Sub
 <img src="./simulation_macro2.PNG" alt="Simulation de macro Excel malveillante" width="80%">
 </p>
 
+### 🔎 À retenir :
+
+- Les macros sont encore utilisées dans certains environnements **mal protégés**.
+- Depuis 2022, **Microsoft bloque par défaut les macros** pour les fichiers téléchargés depuis Internet (`Office 2022+`, `M365`).
+- Les attaquants contournent ces protections en :
+- hébergeant les fichiers sur des serveurs internes compromis,
+- utilisant des documents Word (`.docm`) ou PowerPoint avec macros,
+- demandant à l’utilisateur de **désactiver manuellement** les protections.
+
+---
+
+### ✅ Conclusion
+
+Cette méthode reste **efficace** si l’utilisateur est piégé et **active manuellement** le contenu malveillant.
+
+<p align="center">
+<img src="./simulation_macro3.PNG" alt="Simulation de macro Excel" width="80%">
+</p>
+
+
+
 
 
 
