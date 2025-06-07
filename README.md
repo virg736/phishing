@@ -166,6 +166,28 @@ Les fichiers PDF peuvent également contenir des menaces :
 - **Analyser les fichiers PDF avec un antivirus** ou un service comme [VirusTotal – Analyse de fichier](https://www.virustotal.com/gui/home/upload).
 - **Ne jamais cliquer sur un lien ou un bouton intégré à un PDF d’origine inconnue.**
 
+----
+
+## À propos de l’usage
+
+Ce projet est destiné **exclusivement à des fins pédagogiques**, notamment dans le cadre :
+- d’une formation en cybersécurité,
+- de tests d’intrusion légaux (pentest),
+- d’analyses réseau dans un environnement contrôlé.
+
+> L’auteure **ne cautionne ni n’autorise** l’utilisation de ce script en dehors d’un cadre légal strictement défini.
+> Toute utilisation non conforme est interdite et relève **uniquement de la responsabilité de l’utilisateur**.
+
+---
+
+## Droits sur les visuels
+
+Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’auteure.
+Toute reproduction ou réutilisation sans **autorisation préalable** est interdite.
+
+© 2025 Virginie Lechene — Tous droits réservés.
+
+
 
 
 
