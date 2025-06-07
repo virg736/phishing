@@ -21,10 +21,7 @@
 3. [Pour aller plus loin](#pour-aller-plus-loin)
 4. [Sécurité des macros – Pourquoi un fichier ne suffit pas](#sécurité-des-macros--pourquoi-un-fichier-ne-suffit-pas)
 5. [Ce que cela signifie concrètement](#ce-que-cela-signifie-concrètement)
-6. [Ce que dit Microsoft](#ce-que-dit-microsoft)
-7. [Résumé technique](#résumé-technique)
-8. [Mentions importantes](#mentions-importantes)
-9. [Analyse d’un en-tête d’e-mail (headers)](#analyse-dun-en-tête-de-mail-headers)
+
 
 ---
 
