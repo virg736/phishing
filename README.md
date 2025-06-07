@@ -1,3 +1,13 @@
+<p align="center">
+<img src="./phishing.PNG" alt="Simulation d'une attaque par macro Excel" width="100%"/>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/status-committed-blue" alt="Statut Committed">
+<img src="https://img.shields.io/badge/stability-stable-brightgreen" alt="Stabilité Stable">
+</p>
+
+
 # 🛡️ Phishing : Comment se protéger – Bonnes pratiques
 
 ## Sommaire
