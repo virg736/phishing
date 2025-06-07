@@ -1,11 +1,17 @@
+<!-- Image principale -->
 <p align="center">
-<img src="./phishing.PNG" alt="Simulation d'une attaque par macro Excel" width="100%"/>
+<img src="./phishing.PNG" alt="Simulation d'une attaque par macro Excel" width="100%" />
 </p>
 
+<!-- Badges centrés -->
 <p align="center">
-<img src="https://img.shields.io/badge/status-committed-blue" alt="Statut Committed">
-<img src="https://img.shields.io/badge/stability-stable-brightgreen" alt="Stabilité Stable">
+<img src="https://img.shields.io/badge/statut-engagé-blue" alt="Statut engagé" />
+<img src="https://img.shields.io/badge/stabilité-stable-brightgreen" alt="Stabilité stable" />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+<img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="Licence Creative Commons BY-NC-SA 4.0" />
+</a>
 </p>
+
 
 
 # 🛡️ Phishing : Comment se protéger – Bonnes pratiques
