@@ -70,6 +70,18 @@ Ce projet a pour objectif de **sensibiliser** et de fournir des **bonnes pratiqu
 
 ---
 
+ Analyse d'un en-tête d'e-mail (headers)
+
+| **Élément** | **Ce qu’il faut analyser** |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **From** | Est-ce l’adresse attendue ? (ex. : `support@banque.fr`) |
+| **Reply-To** | Est-ce identique à l’adresse "From" ? Si c’est une autre adresse (ex. : `offre-banque@protonmail.com`), cela peut être suspect. |
+| **Return-Path** | Adresse réelle de retour. Peut différer du "From" en cas de spoofing. |
+| **Received** | Liste des serveurs par lesquels est passé l’e-mail. Une origine inattendue (ex. : serveur basé à l’étranger, VPN, etc.) est un signal d’alerte. |
+| **DKIM / SPF / DMARC** | Signatures utilisées pour vérifier que le domaine de l’expéditeur est autorisé à envoyer l’e-mail. Si elles sont absentes ou échouées, cela indique un danger. |
+
+
+
 ## Pour aller plus loin
 🔗 [Cybermalveillance.gouv.fr - Hameçonnage](https://www.cybermalveillance.gouv.fr/)
 🔗 [CNIL – Reconnaître un e-mail frauduleux](https://www.cnil.fr/)
@@ -80,7 +92,6 @@ Ce projet a pour objectif de **sensibiliser** et de fournir des **bonnes pratiqu
 
 Depuis 2022, **Microsoft Office (Excel, Word)** désactive les **macros par défaut** pour tout fichier **téléchargé depuis Internet ou reçu par e-mail**.
 
-📄 [Documentation Microsoft](https://learn.microsoft.com/fr-fr/deployoffice/security/internet-macros-blocked)
 
 ---
 
@@ -124,14 +135,4 @@ Les liens sont fournis uniquement pour **sensibiliser aux bonnes pratiques** en 
 
 ---
 
-###  Analyse d'un en-tête d'e-mail (headers)
 
-| **Élément** | **Ce qu’il faut analyser** |
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **From** | Est-ce l’adresse attendue ? (ex. : `support@banque.fr`) |
-| **Reply-To** | Est-ce identique à l’adresse "From" ? Si c’est une autre adresse (ex. : `offre-banque@protonmail.com`), cela peut être suspect. |
-| **Return-Path** | Adresse réelle de retour. Peut différer du "From" en cas de spoofing. |
-| **Received** | Liste des serveurs par lesquels est passé l’e-mail. Une origine inattendue (ex. : serveur basé à l’étranger, VPN, etc.) est un signal d’alerte. |
-| **DKIM / SPF / DMARC** | Signatures utilisées pour vérifier que le domaine de l’expéditeur est autorisé à envoyer l’e-mail. Si elles sont absentes ou échouées, cela indique un danger. |
-
----
