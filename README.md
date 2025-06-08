@@ -13,6 +13,8 @@
 </a>
 </p>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 <p align="center"><b>© 2025 Virginie Lechene — Tous droits réservés</b><br>
 Reproduction ou diffusion interdite sans autorisation. Usage strictement pédagogique.</p>
 
