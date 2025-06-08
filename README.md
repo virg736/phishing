@@ -199,7 +199,25 @@ Ce script Python a été développé dans un but **strictement pédagogique** po
 
 📌 Le script est **testé automatiquement** via **GitHub Actions** et validé ✅ (badge vert) à chaque modification.
 
+  ---
+
+Exécution par un utilisateur
+
+Si vous souhaitez exécuter ce script :
+
+ Cloner le dépôt GitHub
+- git clone https://github.com/virg736/phishing.git && cd phishing
+- Rendre le script exécutable
+- chmod +x phishing_script.py
+- Lancer l’analyse sur un e-mail .eml
+- ./phishing_script.py samples/email_suspect.eml
+
+![Exécution du script](script_phishing3.PNG)
+
+
 ---
+
+## À propos de l’usage
 
 📄 **Licence :**
 Ce projet est distribué sous **licence MIT**, permettant l’usage, la modification et la redistribution **à condition de respecter les mentions d’origine**.
@@ -210,36 +228,7 @@ Il peut être utilisé **en local et hors ligne**, dans le cadre :
 - d’une **formation en cybersécurité**,
 - d’un **audit légal**,
 - ou d’un **atelier de sensibilisation pédagogique**.
-
-  ---
-
-Exécution par un utilisateur
-
-Si vous souhaitez exécuter ce script :
-
-# Cloner le dépôt GitHub
-git clone https://github.com/virg736/phishing.git && cd phishing
-
-# Rendre le script exécutable
-chmod +x phishing_script.py
-
-# Lancer l’analyse sur un e-mail .eml
-./phishing_script.py samples/email_suspect.eml
-
-
-
-![Exécution du script](script_phishing3.PNG)
-
-
----
-
-## À propos de l’usage
-
-Ce projet est destiné **exclusivement à des fins pédagogiques**, notamment dans le cadre :
-- d’une formation en cybersécurité,
-- de tests d’intrusion légaux (pentest),
-- d’analyses réseau dans un environnement contrôlé.
-
+  
 > L’auteure **ne cautionne ni n’autorise** l’utilisation de ce script en dehors d’un cadre légal strictement défini.
 > Toute utilisation non conforme est interdite et relève **uniquement de la responsabilité de l’utilisateur**.
 
