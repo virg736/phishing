@@ -1,4 +1,4 @@
-![Tests](https://github.com/virg736/phishing/actions/workflows/python.yml/badge.svg)
+[![Tests](https://github.com/virg736/phishing/actions/workflows/python.yml/badge.svg)](https://github.com/virg736/phishing/actions/workflows/python.yml)
 
 <!-- Image principale -->
 <p align="center">
