@@ -1,3 +1,5 @@
+![Tests](https://github.com/virg736/phishing/actions/workflows/python.yml/badge.svg)
+
 <!-- Image principale -->
 <p align="center">
 <img src="phisting1.PNG" alt="Image de couverture - phishing" width="100%" />
