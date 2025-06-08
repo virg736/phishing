@@ -13,16 +13,21 @@
 </a>
 </p>
 
+## 🛡️ Phishing : Comment se protéger – Bonnes pratiques
 
-
-# 🛡️ Phishing : Comment se protéger – Bonnes pratiques
-
-## Sommaire
+### 🔗 Sommaire
 1. [Introduction](#introduction)
 2. [Bonnes pratiques anti-phishing + outils de vérification](#bonnes-pratiques-anti-phishing--outils-de-vérification)
-3. [Pour aller plus loin](#pour-aller-plus-loin)
-4. [Sécurité des macros – Pourquoi un fichier ne suffit pas](#sécurité-des-macros--pourquoi-un-fichier-ne-suffit-pas)
-5. [Ce que cela signifie concrètement](#ce-que-cela-signifie-concrètement)
+3. [Analyse d'un en-tête d'e-mail (headers)](#analyse-dun-en-tête-demail-headers)
+4. [Pour aller plus loin](#pour-aller-plus-loin)
+5. [Sécurité des macros – Pourquoi un fichier ne suffit pas](#sécurité-des-macros--pourquoi-un-fichier-ne-suffit-pas)
+6. [Ce que cela signifie concrètement](#ce-que-cela-signifie-concrètement)
+7. [🛑 Attention aux fichiers PDF](#-attention-aux-fichiers-pdf)
+8. [🔍 Exemple d'utilisation](#exemple-dutilisation)
+9. [À propos de l’usage](#à-propos-de-lusage)
+10. [Droits sur les visuels](#droits-sur-les-visuels)
+
+
 
 
 ---
