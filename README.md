@@ -1,5 +1,6 @@
 [![Tests](https://github.com/virg736/phishing/actions/workflows/python.yml/badge.svg)](https://github.com/virg736/phishing/actions/workflows/python.yml)
 
+
 <!-- Image principale -->
 <p align="center">
 <img src="phisting1.PNG" alt="Image de couverture - phishing" width="100%" />
@@ -8,15 +9,15 @@
 <!-- Badges centrés -->
 <p align="center">
 <img src="https://img.shields.io/badge/stabilité-stable-brightgreen" alt="stabilité stable" />
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
 <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="Licence Creative Commons BY-NC-SA 4.0" />
-</a>
 </p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-<p align="center"><b>© 2025 Virginie Lechene — Tous droits réservés</b><br>
-Reproduction ou diffusion interdite sans autorisation. Usage strictement pédagogique.</p>
+<!-- Mentions légales -->
+<p align="center">
+<b>© 2025 Virginie Lechene — Tous droits réservés</b><br>
+Reproduction ou diffusion interdite sans autorisation. <i>Usage strictement pédagogique.</i>
+</p>
 
 ---
 
