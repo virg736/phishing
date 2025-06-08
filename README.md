@@ -140,7 +140,9 @@ MsgBox "Étape 2 – Ouverture du fichier Excel, clic sur 'Activer le contenu'"
 MsgBox "Étape 3 – Exécution de la macro"
 Shell "notepad.exe", vbNormalFocus
 MsgBox "Étape 4 – Propagation et chiffrement"
-End Sub
+End Sud
+
+💡 Ce fichier Excel simule **visuellement** une attaque par macro, **sans aucun danger réel**. Il ne contient **aucun code malveillant**, ne chiffre rien et ne contacte aucun serveur. Il s’agit d’un **exemple éducatif** 100 % local.
 
 <p align="center">
 <img src="./simulation_macro2.PNG" alt="Simulation de macro Excel malveillante" width="80%">
