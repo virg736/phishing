@@ -13,6 +13,11 @@
 </a>
 </p>
 
+<p align="center"><b>© 2025 Virginie Lechene — Tous droits réservés</b><br>
+Reproduction ou diffusion interdite sans autorisation. Usage strictement pédagogique.</p>
+
+---
+
 ## 🛡️ Phishing : Comment se protéger – Bonnes pratiques
 
 ### 🔗 Sommaire
