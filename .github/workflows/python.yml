@@ -1,4 +1,4 @@
-name: Test script phishing_checker
+name: Test script phishing_checker 
 
 on: [push, pull_request]
 
