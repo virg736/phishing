@@ -1,21 +1,19 @@
-name: Test script phishing_checker 
+name: Test script phishing_checker
 
 on: [push, pull_request]
 
 jobs:
-run-script:
-runs-on: ubuntu-latest
+  run-script:
+    runs-on: ubuntu-latest
 
-steps:
-- name: Cloner le dépôt
-uses: actions/checkout@v3
+    steps:
+      - name: Cloner le dépôt
+        uses: actions/checkout@v3
 
-- name: Installer Python
-uses: actions/setup-python@v4
-with:
-python-version: '3.10'
+      - name: Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-- name: Exécuter le script avec l'exemple
-run: |
-python phishing_script.py samples/email_suspect.eml 
-
+      - name: Exécuter le script avec l'exemple
+        run: python phishing_script.py samples/email_suspect.eml
