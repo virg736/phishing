@@ -170,6 +170,15 @@ Les fichiers PDF peuvent également contenir des menaces :
 
 ----
 
+###  Exemple d'utilisation
+
+Voici une démonstration réelle d’un utilisateur exécutant le script sur Kali Linux :
+
+![Exécution du script](script_phishing3.PNG)
+
+
+---
+
 ## À propos de l’usage
 
 Ce projet est destiné **exclusivement à des fins pédagogiques**, notamment dans le cadre :
