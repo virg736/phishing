@@ -187,16 +187,45 @@ Les fichiers PDF peuvent également contenir des menaces :
 
 ##  Exemple d'utilisation
 
-Voici une démonstration réelle d’un utilisateur exécutant le script sur Kali Linux :
- Cloner le dépôt
-git clone https://github.com/virg736/phishing.git
-cd phishing
+ ✅ À propos du script
+Ce script Python a été développé dans un but **strictement pédagogique** pour aider à **analyser des e-mails suspects** (au format `.eml`) et **détecter des signes de phishing**.
 
- Rendre le script exécutable
+🛡️ Il permet notamment d’extraire automatiquement des informations clés comme :
+
+- l’expéditeur réel (`From`, `Reply-To`, `Return-Path`),
+- les serveurs traversés (`Received`),
+- la présence ou non d’authentifications (`SPF`, `DKIM`, `DMARC`),
+- les liens contenus dans le message.
+
+📌 Le script est **testé automatiquement** via **GitHub Actions** et validé ✅ (badge vert) à chaque modification.
+
+---
+
+📄 **Licence :**
+Ce projet est distribué sous **licence MIT**, permettant l’usage, la modification et la redistribution **à condition de respecter les mentions d’origine**.
+
+🔒 **Important :**
+Ce script **ne collecte aucune donnée** et **ne communique avec aucun serveur externe**.
+Il peut être utilisé **en local et hors ligne**, dans le cadre :
+- d’une **formation en cybersécurité**,
+- d’un **audit légal**,
+- ou d’un **atelier de sensibilisation pédagogique**.
+
+  ---
+
+Exécution par un utilisateur
+
+Si vous souhaitez exécuter ce script :
+
+# Cloner le dépôt GitHub
+git clone https://github.com/virg736/phishing.git && cd phishing
+
+# Rendre le script exécutable
 chmod +x phishing_script.py
 
- Lancer l’analyse d’un e-mail au format .eml
+# Lancer l’analyse sur un e-mail .eml
 ./phishing_script.py samples/email_suspect.eml
+
 
 
 ![Exécution du script](script_phishing3.PNG)
