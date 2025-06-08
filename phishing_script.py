@@ -1,3 +1,15 @@
+#!/usr/bin/env /python3
+===============================================================
+# Script phishing 
+# Auteur : Virginie
+# Licence : MIT
+#
+# ⚠️ AVERTISSEMENT :
+# Usage strictement pédagogique. L’auteure décline toute responsabilité
+# en cas d’usage malveillant ou illégal.
+
+
+
 import email
 from email import policy
 import sys
