@@ -185,17 +185,17 @@ Les fichiers PDF peuvent également contenir des menaces :
 
 ----
 
-###  Exemple d'utilisation
+##  Exemple d'utilisation
 
 Voici une démonstration réelle d’un utilisateur exécutant le script sur Kali Linux :
-# Cloner le dépôt
+ Cloner le dépôt
 git clone https://github.com/virg736/phishing.git
 cd phishing
 
-# Rendre le script exécutable
+ Rendre le script exécutable
 chmod +x phishing_script.py
 
-# Lancer l’analyse d’un e-mail au format .eml
+ Lancer l’analyse d’un e-mail au format .eml
 ./phishing_script.py samples/email_suspect.eml
 
 
