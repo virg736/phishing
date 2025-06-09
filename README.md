@@ -18,6 +18,9 @@
 <b>© 2025 Virginie Lechene — Tous droits réservés</b><br>
 Reproduction ou diffusion interdite sans autorisation. <i>Usage strictement pédagogique.</i>
 </p>
+<p align="center"><strong>📸 Image protégée — Propriété exclusive</strong></p>
+
+<p align="center">
 
 ---
 
