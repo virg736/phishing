@@ -15,7 +15,7 @@
 
 <!-- Mentions légales -->
 <p align="center">
-<b>© 2025 Virginie Lechene — Tous droits réservés</b><br>
+<b>© 2025 Virginie Lechene - Tous droits réservés</b><br>
 Reproduction ou diffusion interdite sans autorisation. <i>Usage strictement pédagogique.</i>
 </p>
 <p align="center"><strong>📸 Image protégée — Propriété exclusive</strong></p>
@@ -24,7 +24,7 @@ Reproduction ou diffusion interdite sans autorisation. <i>Usage strictement péd
 
 ---
 
-## 🛡️ Phishing : Comment se protéger – Bonnes pratiques
+## 🛡️ Phishing : Comment se protéger - Bonnes pratiques
 
 ### 🔗 Sommaire
 1. [Introduction](#introduction)
@@ -138,11 +138,11 @@ Depuis 2022, **Microsoft Office (Excel, Word)** désactive les **macros par déf
 Exemple de simulation d'attaque macro :
 
 Private Sub Workbook_Open()
-MsgBox "Étape 1 – Réception d’un e-mail piégé"
-MsgBox "Étape 2 – Ouverture du fichier Excel, clic sur 'Activer le contenu'"
-MsgBox "Étape 3 – Exécution de la macro"
+MsgBox "Étape 1 - Réception d’un e-mail piégé"
+MsgBox "Étape 2 - Ouverture du fichier Excel, clic sur 'Activer le contenu'"
+MsgBox "Étape 3 - Exécution de la macro"
 Shell "notepad.exe", vbNormalFocus
-MsgBox "Étape 4 – Propagation et chiffrement"
+MsgBox "Étape 4 - Propagation et chiffrement"
 End Sud
 
 💡 Ce fichier Excel simule **visuellement** une attaque par macro, **sans aucun danger réel**. Il ne contient **aucun code malveillant**, ne chiffre rien et ne contacte aucun serveur. Il s’agit d’un **exemple éducatif** 100 % local.
@@ -242,7 +242,7 @@ Il peut être utilisé **en local et hors ligne**, dans le cadre :
 Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’auteure.
 Toute reproduction ou réutilisation sans **autorisation préalable** est interdite.
 
-© 2025 Virginie Lechene — Tous droits réservés.
+© 2025 Virginie Lechene - Tous droits réservés.
 
 
 
