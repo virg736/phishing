@@ -14,5 +14,5 @@ Vous pouvez les partager librement, à condition :
     De ne pas les modifier
     De mentionner clairement l’auteure : Virginie Lechene
 
-© 2025 Virginie Lechene – Tous droits réservés hors cadre de cette licence.
+© 2026 Virginie Lechene – Tous droits réservés hors cadre de cette licence.
  
