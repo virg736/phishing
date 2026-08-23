@@ -353,18 +353,19 @@ Puis lancé directement :
 
 ## À propos de l’usage
 
-📄 **Licence :**
-Ce projet est distribué sous **licence MIT**, permettant l’usage, la modification et la redistribution **à condition de respecter les mentions d’origine**.
+📄 Licence : Ce projet est distribué sous licence MIT, qui autorise notamment l’utilisation, la modification et la redistribution, sous réserve du maintien des mentions de copyright et de licence prévues par celle-ci.
 
-🔒 **Important :**
-Ce script **ne collecte aucune donnée** et **ne communique avec aucun serveur externe**.
-Il peut être utilisé **en local et hors ligne**, dans le cadre :
-- d’une **formation en cybersécurité**,
-- d’un **audit légal**,
-- ou d’un **atelier de sensibilisation pédagogique**.
-  
-> L’auteure **ne cautionne ni n’autorise** l’utilisation de ce script en dehors d’un cadre légal strictement défini.
-> Toute utilisation non conforme est interdite et relève **uniquement de la responsabilité de l’utilisateur**.
+🔒 Important : Ce script ne collecte aucune donnée et ne communique avec aucun serveur externe. Il peut être utilisé en local et hors ligne, notamment dans le cadre :
+
+* d’une formation en cybersécurité ;
+* d’un audit réalisé avec les autorisations nécessaires ;
+* d’un atelier de sensibilisation pédagogique.
+
+⚠️ Ce projet ne constitue pas une autorisation d’accéder à des systèmes, comptes ou données appartenant à des tiers.
+
+Toute utilisation doit respecter la législation applicable, les autorisations nécessaires et les conditions d’utilisation des services concernés.
+
+L’utilisateur reste responsable de l’usage qu’il fait de ce script.
 
 ---
 
