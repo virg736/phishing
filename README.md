@@ -136,15 +136,15 @@ Outil utile :
 
 ## 4. Afficher et lire les en-têtes d'un e-mail
 
-Éléments à examiner :
+Éléments à examiner :   
 
-From
-Reply-To
-Return-Path
-Received
-Authentication-Results
-Received-SPF
-DKIM-Signature
+From   
+Reply-To   
+Return-Path   
+Received   
+Authentication-Results   
+Received-SPF   
+DKIM-Signature   
 
 Les résultats SPF, DKIM et DMARC, généralement visibles dans Authentication-Results, constituent des indices techniques utiles, mais ne garantissent pas à eux seuls qu’un message est légitime.
 
