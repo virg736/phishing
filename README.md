@@ -225,17 +225,6 @@ Si un e-mail prétend provenir d'une banque, d'un service administratif ou d'une
 
 ---
 
- Analyse d'un en-tête d'e-mail (headers)
-
-| **Élément** | **Ce qu’il faut analyser** |
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **From** | Est-ce l’adresse attendue ? (ex. : `support@banque.fr`) |
-| **Reply-To** | Est-elle identique à l’adresse "From" ? Si c’est une autre adresse (ex. : `offre-banque@protonmail.com`), cela peut être suspect. |
-| **Return-Path** | Adresse réelle de retour. Peut différer du "From" en cas de spoofing, et doit être vérifiée. |
-| **Received** | Liste des serveurs par lesquels est passé l’e-mail. Une origine inhabituelle (ex. : serveur basé à l’étranger, VPN, etc.) est un signal d’alerte. |
-| **DKIM / SPF / DMARC** | Signatures utilisées pour vérifier que le domaine de l’expéditeur est autorisé à envoyer l’e-mail. Si elles sont absentes ou échouées, cela indique un danger. |
-
-
 
 ## Pour aller plus loin
 🔗 [Cybermalveillance.gouv.fr - Hameçonnage](https://www.cybermalveillance.gouv.fr/)
