@@ -267,9 +267,6 @@ Elle :
 <img src="./simulation_macro2.PNG" alt="Simulation de macro Excel malveillante" width="80%">
 </p>
 
-### 🔎 À retenir :
-
-- Depuis 2022, Microsoft a renforcé la protection contre les macros VBA provenant d'Internet. Dans les versions concernées de Microsoft Office / Microsoft 365 sous Windows, les macros présentes dans des fichiers identifiés comme provenant d'Internet sont bloquées par défaut.
 
 ---
 
