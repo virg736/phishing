@@ -182,7 +182,7 @@ Lorsque cela est possible, activer l'**authentification multifacteur (MFA / 2FA)
 
 Elle ajoute une protection supplémentaire lorsqu'un mot de passe est compromis.
 
-Privilégier lorsque cela est disponible :
+Privilégier lorsque cela est possible :
 
 - les applications d'authentification ;
 
@@ -234,7 +234,7 @@ Si un e-mail prétend provenir d'une banque, d'un service administratif ou d'une
 
 ## Sécurité des macros – Pourquoi un fichier ne suffit pas
 
-Depuis 2022, **Microsoft Office (Excel, Word)** désactive les **macros par défaut** pour tout fichier **téléchargé depuis Internet ou reçu par e-mail**.
+Depuis 2022, Microsoft a renforcé la protection contre les macros VBA provenant d’Internet. Dans les versions concernées de Microsoft Office / Microsoft 365, les macros présentes dans des fichiers identifiés comme provenant d’Internet sont bloquées par défaut.
 
 
 ---
