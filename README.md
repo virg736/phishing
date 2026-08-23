@@ -15,7 +15,7 @@
 
 <!-- Mentions légales -->
 <p align="center">
-<b>© 2025 Virginie Lechene 
+<b>© 2026 Virginie Lechene 
 </p>
 
 <p align="center">
@@ -43,12 +43,12 @@
 
 ## Introduction
 
-Le **phishing** (ou hameçonnage) est une technique très répandue chez les cybercriminels.
-Elle vise à tromper la victime afin de lui faire **divulguer des informations sensibles** : mots de passe, coordonnées bancaires, identifiants, etc.
+Le phishing (ou hameçonnage) est une technique très répandue utilisée par les cybercriminels. Elle vise à tromper la victime afin de lui faire divulguer des informations sensibles : mots de passe, coordonnées bancaires, identifiants, etc.
 
-Ce projet a pour objectif de **sensibiliser** et de fournir de **bonnes pratiques concrètes**, accompagnées de **liens d’analyse** (email, pièces jointes, etc.).
+Ce projet a pour objectif de sensibiliser et de fournir de bonnes pratiques concrètes, accompagnées de liens vers des outils et ressources d’analyse (e-mails, pièces jointes, etc.).
 
 ---
+
 
 ## Bonnes pratiques anti-phishing + outils de vérification
 
