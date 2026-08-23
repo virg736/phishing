@@ -299,32 +299,52 @@ Les fichiers PDF peuvent également contenir des menaces :
 
 ---
 
-##  Exemple d'utilisation
+# Exemple d'utilisation
 
- ✅ À propos du script
-Ce script Python a été développé dans un but **strictement pédagogique** pour aider à **analyser des e-mails suspects** (au format `.eml`) et **détecter des signes de phishing**.
+## ✅ À propos du script
 
-🛡️ Il permet notamment d’extraire automatiquement des informations clés comme :
+Ce script Python a été développé dans un but strictement pédagogique pour aider à analyser des e-mails suspects au format `.eml` et détecter certains signes de phishing.
 
-- l’expéditeur réel (`From`, `Reply-To`, `Return-Path`),
-- les serveurs traversés (`Received`),
-- la présence ou non d’authentifications (`SPF`, `DKIM`, `DMARC`),
+🛡️ Il permet notamment d'extraire automatiquement des informations clés comme :
+
+- les informations relatives à l'expéditeur (`From`, `Reply-To`, `Return-Path`) ;
+- les serveurs traversés (`Received`) ;
+- les résultats d'authentification disponibles (`SPF`, `DKIM`, `DMARC`) ;
 - les liens contenus dans le message.
 
-📌 Le script est **testé automatiquement** via **GitHub Actions** et validé ✅ (badge vert) à chaque modification.
+📌 Le script est testé automatiquement via GitHub Actions. Le badge vert indique que les tests configurés dans le workflow se sont exécutés avec succès.
 
-  ---
+---
 
-Exécution par un utilisateur
+## Exécution par un utilisateur
 
 Si vous souhaitez exécuter ce script :
 
- Cloner le dépôt GitHub
-- git clone https://github.com/virg736/phishing.git && cd phishing
-- Rendre le script exécutable
-- chmod +x phishing_script.py
-- Lancer l’analyse sur un e-mail .eml
-- ./phishing_script.py samples/email_suspect.eml
+### 1. Cloner le dépôt GitHub
+
+git clone https://github.com/virg736/phishing.git
+
+cd phishing
+
+2. Lancer l’analyse
+
+Méthode recommandée sous Linux / macOS :
+
+python3 phishing_script.py samples/email_suspect.eml
+
+Selon votre environnement, la commande suivante peut également fonctionner :
+
+python phishing_script.py samples/email_suspect.eml
+
+3. Méthode alternative sous Linux / macOS
+
+Si le script contient un shebang approprié, il peut être rendu exécutable :
+
+chmod +x phishing_script.py
+
+Puis lancé directement :
+
+./phishing_script.py samples/email_suspect.eml
 
 ![Exécution du script](script_phishing3.PNG)
 
