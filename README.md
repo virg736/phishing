@@ -138,27 +138,15 @@ Outil utile :
 
 Éléments à examiner :
 
-```text
-
 From
-
 Reply-To
-
 Return-Path
-
 Received
-
 Authentication-Results
+Received-SPF
+DKIM-Signature
 
-SPF
-
-DKIM
-
-DMARC
-
-```
-
-Les résultats `SPF`, `DKIM` et `DMARC` constituent des **indices techniques utiles**, mais ne garantissent pas à eux seuls qu'un message est légitime.
+Les résultats SPF, DKIM et DMARC, généralement visibles dans Authentication-Results, constituent des indices techniques utiles, mais ne garantissent pas à eux seuls qu’un message est légitime.
 
 ---
 
