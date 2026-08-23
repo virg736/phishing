@@ -269,7 +269,7 @@ Elle :
 
 ### ✅ Conclusion
 
-Cette méthode reste redoutablement **efficace** si l’utilisateur est piégé et **active manuellement** le contenu malveillant.
+« Les attaques reposant sur des macros restent possibles lorsque l’ingénierie sociale parvient à convaincre l’utilisateur de contourner ou de modifier les protections de sécurité. »
 
 <p align="center">
 <img src="./Simulation_macro3.PNG" alt="Simulation d'une attaque par macro Excel" width="80%">
@@ -277,21 +277,27 @@ Cette méthode reste redoutablement **efficace** si l’utilisateur est piégé 
 
 ----
 
-## 🛑 Attention aux fichiers PDF
+> ⚠️ Il ne faut jamais désactiver ou contourner une protection de sécurité à la demande d'un document ou d'un e-mail inattendu.
+
+---
+
+# 🛑 Attention aux fichiers PDF
 
 Les fichiers PDF peuvent également contenir des menaces :
 
-- Ils peuvent intégrer des **scripts malveillants** ou des **liens piégés**.
-- Certains PDF déclenchent une **demande d’activation de contenu dynamique** (JavaScript).
-- Ils peuvent inciter à cliquer sur un **lien de phishing déguisé** (ex. : bouton "Voir la facture").
+- Ils peuvent intégrer des scripts malveillants ou des liens piégés.
+- Certains PDF peuvent contenir du JavaScript ou d'autres éléments interactifs, dont l'exécution dépend du lecteur PDF et de ses paramètres de sécurité.
+- Ils peuvent inciter à cliquer sur un lien de phishing déguisé (ex. : bouton **« Voir la facture »**).
 
-### 🛡️ Recommandations
+## 🛡️ Recommandations
 
-- **Ne pas ouvrir directement les fichiers PDF suspects**, même dans un navigateur.
-- **Analyser les fichiers PDF avec un antivirus** ou un service comme [VirusTotal – Analyse de fichier](https://www.virustotal.com/gui/home/upload).
-- **Ne jamais cliquer sur un lien ou un bouton intégré à un PDF d’origine inconnue.**
+- Ne pas ouvrir directement les fichiers PDF suspects, même dans un navigateur.
+- Maintenir le lecteur PDF et le navigateur à jour.
+- Analyser les fichiers PDF suspects avec un antivirus ou un service comme [VirusTotal – Analyse de fichier](https://www.virustotal.com/gui/home/upload).
+- Ne jamais cliquer sur un lien ou un bouton intégré à un PDF d'origine inconnue.
+- Ne jamais téléverser sur un service public d'analyse un document contenant des données personnelles, professionnelles, confidentielles ou sensibles.
 
-----
+---
 
 ##  Exemple d'utilisation
 
