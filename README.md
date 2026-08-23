@@ -36,63 +36,204 @@
 9. [À propos de l’usage](#à-propos-de-lusage)
 10. [Droits sur les visuels](#droits-sur-les-visuels)
 
+---
 
+# Introduction
 
+Le **phishing (ou hameçonnage)** est une technique très répandue utilisée par les cybercriminels. Elle vise à tromper la victime afin de lui faire divulguer des informations sensibles : mots de passe, coordonnées bancaires, identifiants, etc.
+
+Ce projet a pour objectif de sensibiliser et de fournir de bonnes pratiques concrètes, accompagnées de liens vers des outils et ressources d'analyse (e-mails, pièces jointes, etc.).
 
 ---
 
-## Introduction
+# Bonnes pratiques anti-phishing + outils de vérification
 
-Le phishing (ou hameçonnage) est une technique très répandue utilisée par les cybercriminels. Elle vise à tromper la victime afin de lui faire divulguer des informations sensibles : mots de passe, coordonnées bancaires, identifiants, etc.
+## 1. Vérifier les informations relatives à l'expéditeur
 
-Ce projet a pour objectif de sensibiliser et de fournir de bonnes pratiques concrètes, accompagnées de liens vers des outils et ressources d’analyse (e-mails, pièces jointes, etc.).
+Ne pas se fier uniquement au nom affiché dans la messagerie.
+
+Examiner notamment :   
+
+- `From`
+
+- `Reply-To`
+
+- `Return-Path`
+
+- le domaine utilisé par l'expéditeur
+
+Outils utiles :
+
+- 🔗 [Google Admin Toolbox - Messageheader](https://toolbox.googleapps.com/apps/messageheader/)
+
+- 🔗 [MXToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
 
 ---
 
+## 2. Vérifier la destination réelle des liens avant de les ouvrir
 
-## Bonnes pratiques anti-phishing + outils de vérification
+Sur ordinateur, il est souvent possible de **survoler un lien avec la souris** afin d'afficher sa destination.
 
-1. **Vérifier l’adresse réelle de l’expéditeur**
-🔗 [MailHeader Analyzer (Google)](https://toolbox.googleapps.com/apps/messageheader/)
-🔗 [MXToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
+Sur smartphone ou tablette, certaines applications permettent d'utiliser un **appui prolongé** ou un aperçu avant ouverture.
 
-2. **Survoler les liens avec la souris avant de cliquer**
-🔗 [VirusTotal - Scanner d'URL](https://www.virustotal.com/)
-🔗 [URLScan.io](https://urlscan.io/)
+Avant de cliquer :
 
-3. **Analyser les pièces jointes avant de les ouvrir**
-🔗 [VirusTotal – Analyse de fichier](https://www.virustotal.com/gui/home/upload)
+- vérifier attentivement le nom de domaine ;
 
-4. **Afficher et lire les en-têtes d’un e-mail (headers)**
-À examiner : `From`, `Reply-To`, `Return-Path`, `Received`, `SPF`, `DKIM`
+- rechercher les fautes ou caractères inhabituels ;
 
-5. **Vérifier si un site est signalé comme dangereux**
-🔗 [Google Safe Browsing](https://transparencyreport.google.com/safe-browsing/search)
-🔗 [PhishTank](https://phishtank.org/)
+- se méfier des URL raccourcies ;
 
-6. **Rechercher à qui appartient un domaine (whois)**
-🔗 [Who.is](https://who.is/)
-🔗 [SecurityTrails](https://securitytrails.com/)
+- ne pas se fier uniquement au texte visible du lien.
 
-Les outils et ressources externes mentionnés dans ce projet (ex. : VirusTotal, Google Header Analyzer, PhishTank…) sont tous **publics, légaux** et utilisés dans un **but exclusivement pédagogique**.
+Outils utiles :
 
-Aucune de ces plateformes n’est modifiée ou utilisée de manière détournée.
-Les liens sont fournis uniquement pour **sensibiliser aux bonnes pratiques** en matière de cybersécurité (analyse d’e-mails, de liens, de fichiers…).
+- 🔗 [VirusTotal - Scanner une URL](https://www.virustotal.com/gui/home/url)
 
-> Ce projet n’encourage en aucun cas l’usage de techniques offensives sans autorisation légale préalable.
+- 🔗 [URLScan.io](https://urlscan.io/)
 
- Pour plus d'informations sur l'utilisation de liens à des fins pédagogiques :
-- [Legifrance – Code de la propriété intellectuelle, Article L122-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278917/)
-- [CNIL – Sensibilisation à la cybersécurité](https://www.cnil.fr)
+> ⚠️ **Confidentialité**
 
-----
+>
 
-8. **Mettre à jour son antivirus et activer les protections antiphishing**
-✅ Activer SmartScreen (Windows)
-✅ Activer les protections Gmail / Outlook
+> Ne soumettez jamais à un service d'analyse public une URL contenant des données confidentielles, des jetons d'authentification, des informations personnelles ou professionnelles sensibles.
 
-9. **Ne jamais cliquer sur un lien inconnu dans un e-mail**
-✍️ Tapez l’URL directement dans votre navigateur.
+>
+
+> Vérifiez toujours les paramètres de confidentialité du service utilisé.
+
+---
+
+## 3. Analyser les pièces jointes avant de les ouvrir
+
+Soyez particulièrement vigilant avec les fichiers provenant d'un expéditeur inconnu ou inattendu.
+
+Exemples :
+
+- `.exe`
+
+- `.js`
+
+- `.vbs`
+
+- `.docm`
+
+- `.xlsm`
+
+- `.pptm`
+
+- `.zip`
+
+- PDF suspects
+
+Outil utile :
+
+- 🔗 [VirusTotal - Analyse de fichier](https://www.virustotal.com/gui/home/upload)
+
+> ⚠️ Ne téléversez jamais sur une plateforme publique un document contenant des données personnelles, professionnelles, confidentielles ou sensibles.
+
+---
+
+## 4. Afficher et lire les en-têtes d'un e-mail
+
+Éléments à examiner :
+
+```text
+
+From
+
+Reply-To
+
+Return-Path
+
+Received
+
+Authentication-Results
+
+SPF
+
+DKIM
+
+DMARC
+
+```
+
+Les résultats `SPF`, `DKIM` et `DMARC` constituent des **indices techniques utiles**, mais ne garantissent pas à eux seuls qu'un message est légitime.
+
+---
+
+## 5. Vérifier si un site est signalé comme dangereux
+
+Outils utiles :
+
+- 🔗 [Google Safe Browsing](https://transparencyreport.google.com/safe-browsing/search)
+
+- 🔗 [PhishTank](https://phishtank.org/)
+
+Ces services peuvent aider à identifier des URL déjà connues comme malveillantes ou associées à des campagnes de phishing.
+
+---
+
+## 6. Rechercher des informations publiques sur un domaine
+
+Lorsqu'un domaine semble suspect, il est possible de rechercher certaines informations publiques afin d'obtenir davantage de contexte.
+
+Outils utiles :
+
+- 🔗 [ICANN Lookup](https://lookup.icann.org/)
+
+- 🔗 [SecurityTrails](https://securitytrails.com/)
+
+Une date d'enregistrement récente ou des informations inhabituelles peuvent constituer des **indices**, mais ne suffisent pas à elles seules pour conclure qu'un domaine est malveillant.
+
+---
+
+## 7. Activer l'authentification multifacteur
+
+Lorsque cela est possible, activer l'**authentification multifacteur (MFA / 2FA)**.
+
+Elle ajoute une protection supplémentaire lorsqu'un mot de passe est compromis.
+
+Privilégier lorsque cela est disponible :
+
+- les applications d'authentification ;
+
+- les clés de sécurité ;
+
+- les passkeys.
+
+---
+
+## 8. Mettre à jour les protections de sécurité
+
+- Maintenir le système d'exploitation à jour.
+
+- Maintenir le navigateur à jour.
+
+- Maintenir l'antivirus à jour.
+
+- Activer les protections antiphishing.
+
+- Activer **Microsoft Defender SmartScreen** sous Windows.
+
+- Activer les protections intégrées de Gmail, Outlook ou de votre solution de messagerie.
+
+---
+
+## 9. Ne jamais utiliser un lien suspect pour accéder à un service sensible
+
+Si un e-mail prétend provenir d'une banque, d'un service administratif ou d'une plateforme importante :
+
+1. Ne pas cliquer sur le lien contenu dans le message.
+
+2. Ouvrir soi-même le navigateur.
+
+3. Utiliser un favori connu ou saisir manuellement l'adresse officielle.
+
+4. Se connecter depuis le site ou l'application officielle.
+
+
+
 
 ---
 
