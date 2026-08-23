@@ -239,27 +239,27 @@ Depuis 2022, Microsoft a renforcé la protection contre les macros VBA provenant
 
 ---
 
- Ce que cela signifie concrètement
+ ### Exemple de simulation pédagogique
 
-- Tant que l’utilisateur **n’active pas les macros**, aucun code malveillant ne s’exécute.
-- C’est **uniquement après avoir cliqué sur "Activer le contenu"** que la macro se lance.
-- Ensuite, le fichier peut :
-- Se connecter à un serveur distant
-- Télécharger un **payload** (virus)
-- L’exécuter discrètement
+Ce fichier Excel illustre visuellement les différentes étapes d'une attaque utilisant une macro, sans exécuter de code malveillant.
 
-💡 Cette méthode est couramment utilisée dans les attaques de type **phishing par macro VBA**.
+Exemple de scénario simulé :
 
+1. Réception d'un e-mail piégé.
+2. Ouverture du fichier Excel.
+3. Simulation de l'autorisation et de l'exécution d'une macro.
+4. Fin de la simulation.
 
-Exemple de simulation d'attaque macro :
+💡 **Cette démonstration est entièrement locale et sans danger réel.**
 
-Private Sub Workbook_Open()
-MsgBox "Étape 1 - Réception d’un e-mail piégé"
-MsgBox "Étape 2 - Ouverture du fichier Excel, clic sur 'Activer le contenu'"
-MsgBox "Étape 3 - Exécution de la macro"
-Shell "notepad.exe", vbNormalFocus
-MsgBox "Étape 4 - Propagation et chiffrement"
-End Sud
+Elle :
+
+- ne contient aucun code malveillant ;
+- ne chiffre aucune donnée ;
+- ne contacte aucun serveur distant ;
+- ne télécharge aucun fichier ;
+- ne collecte aucune information.
+
 
 💡 Ce fichier Excel simule **visuellement** une attaque par macro, **sans aucun danger réel**. Il ne contient **aucun code malveillant**, ne chiffre rien et ne contacte aucun serveur. Il s’agit d’un **exemple éducatif** 100 % local.
 
@@ -269,12 +269,7 @@ End Sud
 
 ### 🔎 À retenir :
 
-- Les macros sont encore utilisées dans certains environnements **insuffisamment sécurisés**.
-- Depuis 2022, **Microsoft bloque par défaut les macros** dans les fichiers téléchargés depuis Internet (`Office 2022+`, Microsoft`365`).
-- Les attaquants contournent ces protections en :
-- hébergeant les fichiers sur des serveurs internes compromis,
-- utilisant des documents Word (`.docm`) ou PowerPoint avec macros,
-- demandant à l’utilisateur de **désactiver manuellement** les protections.
+- Depuis 2022, Microsoft a renforcé la protection contre les macros VBA provenant d'Internet. Dans les versions concernées de Microsoft Office / Microsoft 365 sous Windows, les macros présentes dans des fichiers identifiés comme provenant d'Internet sont bloquées par défaut.
 
 ---
 
