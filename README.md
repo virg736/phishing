@@ -260,9 +260,6 @@ Elle :
 - ne télécharge aucun fichier ;
 - ne collecte aucune information.
 
-
-💡 Ce fichier Excel simule **visuellement** une attaque par macro, **sans aucun danger réel**. Il ne contient **aucun code malveillant**, ne chiffre rien et ne contacte aucun serveur. Il s’agit d’un **exemple éducatif** 100 % local.
-
 <p align="center">
 <img src="./simulation_macro2.PNG" alt="Simulation de macro Excel malveillante" width="80%">
 </p>
